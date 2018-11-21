@@ -4,19 +4,19 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.idengyun.androidlib</groupId>
   <artifactId>bannerlib</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.2</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
       <groupId>com.android.support</groupId>
       <artifactId>support-v4</artifactId>
-      <version>27.0.2</version>
+      <version>26.1.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.android.support</groupId>
       <artifactId>recyclerview-v7</artifactId>
-      <version>27.0.2</version>
+      <version>26.1.0</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
