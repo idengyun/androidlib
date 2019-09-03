@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.idengyun.androidlib</groupId>
+  <artifactId>paylibrary</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <artifactId>alipaySdk-15.6.5-20190718211159-noUtdid</artifactId>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.tencent.mm.opensdk</groupId>
+      <artifactId>wechat-sdk-android-without-mta</artifactId>
+      <version>5.4.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
